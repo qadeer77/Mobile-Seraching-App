@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: antiquewhite;
+}
+
+/* navbar */
+nav {
+    position: relative;
+    top: 10px;
+}
+
+/* mobile1 */
+.mobile1 {
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    left: 170px;
+}
+
+.mobile1 img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gulshan {
+    position: relative;
+    top: 20px;
+}
