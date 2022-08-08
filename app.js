@@ -290,4 +290,87 @@ var mobilePhones = {
             isPta: true,
         },
     },
+    // Vivo
+    vivo: {
+        iqoo: {
+            name: "Vivo iQOO 10 Pro",
+            brand: "Vivo",
+            colors: ["black", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo10-pro.jpg",
+            isPta: true,
+        },
+        iqoo9T: {
+            name: "Vivo iQOO 9T",
+            brand: "Vivo",
+            colors: ["white", "black"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-9t-5g.jpg",
+            isPta: true,
+        },
+        X80: {
+            name: "Vivo X80 Pro",
+            brand: "Vivo",
+            colors: ["blue", "black"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/vivo-x80-pro.jpg",
+            isPta: true,
+        },
+        y21: {
+            name: "Vivo Y21",
+            brand: "Vivo",
+            colors: ["white", "lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/vivo-y21-.jpg",
+            isPta: true,
+        },
+        v23: {
+            name: "Vivo V23 5G",
+            brand: "vivo",
+            colors: ["orange", "orange"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/vivo-v23-5g.jpg",
+            isPta: true,
+        },
+        y91: {
+            name: "Vivo Y91",
+            brand: "Vivo",
+            colors: ["blue", "blueWhite"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/vivo-y91.jpg",
+            isPta: true,
+        },
+        iqoo10: {
+            name: "Vivo iQOO 10",
+            brand: "Vivo",
+            colors: ["orange", "malta"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo10.jpg",
+            isPta: true,
+        },
+        T1: {
+            name: "Vivo T1 5G",
+            brand: "Vivo",
+            colors: ["gray", "black"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/vivo-t1-5g.jpg",
+            isPta: true,
+        },
+        Y81: {
+            name: "Vivo Y81",
+            brand: "Vivo",
+            colors: ["black", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/vivo-y81.jpg",
+            isPta: true,
+        },
+        y15: {
+            name: "Vivo Y15s",
+            brand: "Vivo",
+            colors: ["white", "blue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/vivo-y15s-new.jpg",
+            isPta: true,
+        },
+    },
 }
