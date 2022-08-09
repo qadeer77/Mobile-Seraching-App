@@ -62,3 +62,24 @@ h6 {
     font-size: 20px;
     background-color: ghostwhite;
 }
+
+#none1 {
+    display: none;
+}
+
+.qadeer {
+    object-fit: cover;
+    width: 250px;
+    border-radius: 20px;
+}
+
+/* mobile */
+.mobile {
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 400px;
+    width: 250px;
+    height: 460px;
+    border-radius: 20px;
+}
