@@ -373,4 +373,502 @@ var mobilePhones = {
             isPta: true,
         },
     },
+    // Realme
+    realme: {
+        c35: {
+            name: "Realme C35",
+            brand: "Realme",
+            colors: ["green", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/realme-c35.jpg",
+            isPta: true,
+        },
+        pro9: {
+            name: "Realme 9 Pro",
+            brand: "Realme",
+            colors: ["green", "full-green"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/realme-9-pro.jpg",
+            isPta: true,
+        },
+        Gt2: {
+            name: "Realme GT2 Explorer Master",
+            brand: "Realme",
+            colors: ["orange", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/realme-gt2-master-explorer.jpg",
+            isPta: true,
+        },
+        proplus9: {
+            name: "Realme 9 Pro+",
+            brand: "Realme",
+            colors: ["white", "lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/realme-9-pro-plus.jpg",
+            isPta: true,
+        },
+        realme9: {
+            name: "Realme 9",
+            brand: "Realme",
+            colors: ["orange", "orange"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/realme-9-4g.jpg",
+            isPta: true,
+        },
+        GTMaster: {
+            name: "Realme GT Master",
+            brand: "Realme",
+            colors: ["black", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-master.jpg",
+            isPta: true,
+        },
+        i9: {
+            name: "Realme 9i",
+            brand: "Realme",
+            colors: ["blue", "lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/realme-9i-r1.jpg",
+            isPta: true,
+        },
+        Gt2pro: {
+            name: "Realme GT2 Pro",
+            brand: "Realme",
+            colors: ["green", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/realme-gt2-pro.jpg",
+            isPta: true,
+        },
+        GTNeo3: {
+            name: "Realme GT Neo 3",
+            brand: "Realme",
+            colors: ["blue", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-neo3-new.jpg",
+            isPta: true,
+        },
+        realme8: {
+            name: "Realme 8",
+            brand: "Realme",
+            colors: ["white", "black"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/realme-8.jpg",
+            isPta: true,
+        },
+    },
+    // oppo
+    oppo: {
+        reno8: {
+            name: "Oppo Reno8",
+            brand: "Oppo",
+            colors: ["orange", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8.jpg",
+            isPta: true,
+        },
+        reno8pro: {
+            name: "Oppo Reno8 Pro",
+            brand: "Oppo",
+            colors: ["blue", "lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-pro.jpg",
+            isPta: true,
+        },
+        a3s: {
+            name: "Oppo A3s",
+            brand: "Oppo",
+            colors: ["red", "red"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/oppo-a3s.jpg",
+            isPta: true,
+        },
+        a16: {
+            name: "Oppo A16",
+            brand: "Oppo",
+            colors: ["blue", "lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/oppo-a16.jpg",
+            isPta: true,
+        },
+        F9: {
+            name: "Oppo F9 (F9 Pro)",
+            brand: "Oppo",
+            colors: ["red", "orange"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/oppo-f9.jpg",
+            isPta: true,
+        },
+        reno8z: {
+            name: "Oppo Reno8 Z",
+            brand: "Oppo",
+            colors: ["black", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-z-5g.jpg",
+            isPta: true,
+        },
+        a96: {
+            name: "Oppo A96",
+            brand: "Oppo",
+            colors: ["white", "lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/oppo-a96-new.jpg",
+            isPta: true,
+        },
+        f1s: {
+            name: "Oppo F1s",
+            brand: "Oppo",
+            colors: ["orange", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/oppo-f1s.jpg",
+            isPta: true,
+        },
+        a57: {
+            name: "Oppo A57",
+            brand: "Oppo",
+            colors: ["lightblue", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/oppo-a57-5g.jpg",
+            isPta: true,
+        },
+        a37: {
+            name: "Oppo A37",
+            brand: "Oppo",
+            colors: ["white", "orange"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/oppo-a37.jpg",
+            isPta: true,
+        },
+    },
+    // Infinix
+    infinix: {
+        note12pro: {
+            name: "Infinix Note 12 Pro 5G",
+            brand: "Infinix",
+            colors: ["black", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/infinix-note12-pro-5g.jpg",
+            isPta: true,
+        },
+        hot12play: {
+            name: "Infinix Hot 12 Play",
+            brand: "Infinix",
+            colors: ["gray", "lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/infinix-hot12-play.jpg",
+            isPta: true,
+        },
+        hot12: {
+            name: "Infinix Hot 12",
+            brand: "Infinix",
+            colors: ["blue", "lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/infinix-hot12.jpg",
+            isPta: true,
+        },
+        infinixnote12: {
+            name: "Infinix Note 12 Pro",
+            brand: "Infinix",
+            colors: ["blue", "lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/infinix-note12-pro-4g.jpg",
+            isPta: true,
+        },
+        infinixnote12: {
+            name: "Infinix Note 12",
+            brand: "Infinix",
+            colors: ["white", "orange"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/infinix-note12.jpg",
+            isPta: true,
+        },
+        note12vip: {
+            name: "Infinix Note 12 VIP",
+            brand: "Infinix",
+            colors: ["black", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/infinix-note12-vip.jpg",
+            isPta: true,
+        },
+        infinixhot10: {
+            name: "Infinix Hot 10",
+            brand: "Infinix",
+            colors: ["blue", "lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/infinix-hot10.jpg",
+            isPta: true,
+        },
+        zero5g: {
+            name: "Infinix Zero 5G",
+            brand: "Infinix",
+            colors: ["black", "blue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/infinix-zero-5g.jpg",
+            isPta: true,
+        },
+        note12g96: {
+            name: "Infinix Note 12 G96",
+            brand: "Infinix",
+            colors: ["lightblue", "blue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/infinix-note12-g96.jpg",
+            isPta: true,
+        },
+        smart6: {
+            name: "Infinix Smart 6",
+            brand: "Infinix",
+            colors: ["blue", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/infinix-smart-6.jpg",
+            isPta: true,
+        },
+    },   
+    // Xiaomi
+    Xiaomi: {
+        redminote11: {
+            name: "Xiaomi Redmi Note 11",
+            brand: "Redmi",
+            colors: ["lightblue", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-11-global.jpg",
+            isPta: true,
+        },
+        ultra12s: {
+            name: "Xiaomi 12S Ultra",
+            brand: "Redmi",
+            colors: ["black", "black"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-12s-ultra.jpg",
+            isPta: true,
+        },
+        redminote10pro: {
+            name: "Xiaomi Redmi Note 10 Pro",
+            brand: "Redmi",
+            colors: ["bluewhite", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note10-pro.jpg",
+            isPta: true,
+        },
+        redminote11pro: {
+            name: "Xiaomi Redmi Note 11 Pro",
+            brand: "Redmi",
+            colors: ["white", "lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-11-pro-global.jpg",
+            isPta: true,
+        },
+        pocof4: {
+            name: "Xiaomi Poco F4",
+            brand: "Redmi",
+            colors: ["green", "White"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-f4-5g-.jpg",
+            isPta: true,
+        },
+        redmik5oi: {
+            name: "Xiaomi Redmi K5Oi",
+            brand: "Redmi",
+            colors: ["black", "green"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-k50i-5g.jpg",
+            isPta: true,
+        },
+        pocox4: {
+            name: "Xiaomi Poco X4 Pro 5G",
+            brand: "Redmi",
+            colors: ["blue", "lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x4-pro.jpg",
+            isPta: true,
+        },
+        xiaomi12lite: {
+            name: "Xiaomi 12 Lite",
+            brand: "Redmi",
+            colors: ["black", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-12-lite-5g-new.jpg",
+            isPta: true,
+        },
+        redminote11pro5g: {
+            name: "Xiaomi Redmi Note 11 Pro+ 5G",
+            brand: "Redmi",
+            colors: ["black", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note11-pro-plus-new.jpg",
+            isPta: true,
+        },
+        xiaomi11t: {
+            name: "Xiaomi 11T Pro",
+            brand: "Redmi",
+            colors: ["white", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-11t-pro.jpg",
+            isPta: true,
+        },
+    },
+    // Huawei
+    huawei: {
+        matepadpro: {
+            name: "Huawei MatePad Pro 11 (2022)",
+            brand: "Huawei",
+            colors: ["black", "blue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/huawei-matepad-pro-11-2022-ofic.jpg",
+            isPta: true,
+        },
+        p50pro: {
+            name: "Huawei P50 Pro",
+            brand: "Huawei",
+            colors: ["gray", "lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/huawei-p50-pro.jpg",
+            isPta: true,
+        },
+        p9: {
+            name: "Huawei P9 Lite mini",
+            brand: "Huawei",
+            colors: ["gray", "orange"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/huawei-y6-pro-2017-p9-lite-mini.jpg",
+            isPta: true,
+        },
+        p30lite: {
+            name: "Huawei P30 Lite",
+            brand: "Huawei",
+            colors: ["white", "lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/huawei-p30-lite-.jpg",
+            isPta: true,
+        },
+        y9: {
+            name: "Huawei Y9 (2019)",
+            brand: "Huawei",
+            colors: ["blue", "Lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/huawei-y9-2019-.jpg",
+            isPta: true,
+        },
+        nova10: {
+            name: "Huawei nova 10 Pro",
+            brand: "Huawei",
+            colors: ["black", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-10-pro.jpg",
+            isPta: true,
+        },
+        p30: {
+            name: "Huawei P30",
+            brand: "Huawei",
+            colors: ["blue", "lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/huawei-p30.jpg",
+            isPta: true,
+        },
+        nova9: {
+            name: "Huawei nova 9",
+            brand: "Huawei",
+            colors: ["gray", "whiteblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova-9-5g.jpg",
+            isPta: true,
+        },
+        mate20: {
+            name: "Huawei Mate 20 Pro",
+            brand: "Huawei",
+            colors: ["blue", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate-20-pro-1.jpg",
+            isPta: true,
+        },
+        p20pro: {
+            name: "Huawei P20 Pro",
+            brand: "Huawei",
+            colors: ["gray", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/huawei-p20-pro-.jpg",
+            isPta: true,
+        },
+    },
+    // Honor
+    Honor: {
+        x8: {
+            name: "Honor X8",
+            brand: "Huawei",
+            colors: ["gray", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/honor-x8.jpg",
+            isPta: true,
+        },
+        honor50: {
+            name: "Honor 50",
+            brand: "Huawei",
+            colors: ["orange", "red"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/honor-50-.jpg",
+            isPta: true,
+        },
+        honor8X: {
+            name: "Honor 8X",
+            brand: "Huawei",
+            colors: ["blue", "lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-8x.jpg",
+            isPta: true,
+        },
+        x7: {
+            name: "Honor X7",
+            brand: "Huawei",
+            colors: ["blue", "lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/honor-x7.jpg",
+            isPta: true,
+        },
+        magic4pro: {
+            name: "Honor Magic4 Pro",
+            brand: "Huawei",
+            colors: ["white", "green"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/honor-magic4-pro.jpg",
+            isPta: true,
+        },
+        x85G: {
+            name: "Honor X8 5G",
+            brand: "Huawei",
+            colors: ["lightblue", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/honor-x8-5g.jpg",
+            isPta: true,
+        },
+        honor70: {
+            name: "Honor 70 Pro+",
+            brand: "Huawei",
+            colors: ["gray", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/honor-70-pro-plus.jpg",
+            isPta: true,
+        },
+        mate10: {
+            name: "Honor Mate 10 Lite",
+            brand: "Huawei",
+            colors: ["black", "blue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate-10-lite.jpg",
+            isPta: true,
+        },
+        x9: {
+            name: "Honor X9 5G",
+            brand: "Huawei",
+            colors: ["white", "whiteblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/honor-x9.jpg",
+            isPta: true,
+        },
+        honor9lite: {
+            name: "Honor 9 Lite",
+            brand: "Huawei",
+            colors: ["blue", "Lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-9-lite.jpg",
+            isPta: true,
+        },
+    },   
 }
