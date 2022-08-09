@@ -621,7 +621,7 @@ var mobilePhones = {
                 "https://fdn2.gsmarena.com/vv/bigpic/infinix-smart-6.jpg",
             isPta: true,
         },
-    },   
+    },
     // Xiaomi
     Xiaomi: {
         redminote11: {
@@ -870,5 +870,134 @@ var mobilePhones = {
                 "https://fdn2.gsmarena.com/vv/bigpic/huawei-honor-9-lite.jpg",
             isPta: true,
         },
-    },   
+    },
+    // ZTE
+    ZTE: {
+        nubiaRed: {
+            name: "ZTE nubia Red Magic 7S Pro",
+            brand: "ZTE",
+            colors: ["gray", "white"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/zte-nubia-red-magic-7s-pro.jpg",
+            isPta: true,
+        },
+        axon40: {
+            name: "ZTE Axon 40 Ultra",
+            brand: "ZTE",
+            colors: ["orange", "red"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/zte-axon-40-ultra.jpg",
+            isPta: true,
+        },
+        nubiaz40s: {
+            name: "ZTE nubia Z40S Pro",
+            brand: "ZTE",
+            colors: ["blue", "green"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/zte-nubia-z40s-pro.jpg",
+            isPta: true,
+        },
+        nubiaredmagic7pro: {
+            name: "ZTE nubia Red Magic 7 Pro",
+            brand: "ZTE",
+            colors: ["black", "lightblue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/zte-nubia-red-magic-7-pro.jpg",
+            isPta: true,
+        },
+        nubiaredmagic7: {
+            name: "ZTE nubia Red Magic 7",
+            brand: "ZTE",
+            colors: ["purple", "blue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/zte-nubia-red-magic-7.jpg",
+            isPta: true,
+        },
+    },
+    // Microsoft
+    Microsoft: {
+        surfaceduo2: {
+            name: "Microsoft Surface Duo 2",
+            brand: "Microsoft",
+            colors: ["black", "blue"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/microsoft-surface-duo2.jpg",
+            isPta: false,
+        },
+        surfaceduo: {
+            name: "Microsoft Surface duo",
+            brand: "Microsoft",
+            colors: ["white", "black"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/microsoft-surface-duo.jpg",
+            isPta: false,
+        },
+        lumia650: {
+            name: "Microsoft lumia 650",
+            brand: "Microsoft",
+            colors: ["white", "gray"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/microsoft-lumia-650-s.jpg",
+            isPta: false,
+        },
+        lumia950: {
+            name: "Microsoft lumia 950 XL",
+            brand: "Microsoft",
+            colors: ["black", "black"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/microsoft-lumia-950-xl--.jpg",
+            isPta: false,
+        },
+        lumia535: {
+            name: "Microsoft lumia 535",
+            brand: "Microsoft",
+            colors: ["black", "black"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/nokia-lumia-535.jpg",
+            isPta: false,
+        },
+    },
+    // Google
+    Google: {
+        pixel6a: {
+            name: "Google Pixel 6a",
+            brand: "Google",
+            colors: ["green", "black"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-6a.jpg",
+            isPta: true,
+        },
+        pixel6pro: {
+            name: "Google Pixel 6 Pro",
+            brand: "Google",
+            colors: ["white", "wheet"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-6-pro.jpg",
+            isPta: true,
+        },
+        pixel6: {
+            name: "Google Pixel 6",
+            brand: "Google",
+            colors: ["orange", "red"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-6.jpg",
+            isPta: true,
+        },
+        pixel3: {
+            name: "Google Pixel 3",
+            brand: "Google",
+            colors: ["white", "wheet"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-3-.jpg",
+            isPta: true,
+        },
+        pixel3Xl: {
+            name: "Google Pixel 3 XL",
+            brand: "Google",
+            colors: ["white", "wheet"],
+            image:
+                "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-3xl-.jpg",
+            isPta: true,
+        },
+    },
 }
