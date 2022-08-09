@@ -1001,3 +1001,12 @@ var mobilePhones = {
         },
     },
 }
+
+var list = Object.keys(mobilePhones);
+for (var i = 0; i < list.length; i++) {
+    var dropdown = document.getElementById("dropdown");
+    var option = document.createElement("option");
+    var optionText = document.createTextNode(list[i]);
+    option.appendChild(optionText);
+    dropdown.appendChild(option);
+}
