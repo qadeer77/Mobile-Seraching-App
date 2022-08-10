@@ -8,6 +8,8 @@ var mobilePhones = {
             image: "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-6-4.jpg",
             isPta: false,
         },
+
+
         iphone6s: {
             name: "Iphone 6s",
             brand: "Apple",
@@ -526,34 +528,29 @@ for (var i = 0; i < list.length; i++) {
 
 function foo(name, brand, colors, image, isPta) {
     var div12 = document.getElementById("div12");
-    // var mob = mobilePhones.iphone.iphone6.image;
     var image1 = document.createElement("img");
     image1.setAttribute("src", image);
     image1.setAttribute("class", "qadeer");
     div12.appendChild(image1);
 
-    // var mobi = mobilePhones.iphone.iphone6.name;
     var h6 = document.createElement("h6");
     var texth6 = document.createTextNode("Name: " + name);
     h6.appendChild(texth6);
     h6.setAttribute("class", "qadeer");
     div12.appendChild(h6);
 
-    // var mobil = mobilePhones.iphone.iphone6.brand;
     var h62 = document.createElement("h6");
     var texth62 = document.createTextNode("Brand: " + brand);
     h62.appendChild(texth62);
     h62.setAttribute("class", "qadeer");
     div12.appendChild(h62);
 
-    // var mobile = mobilePhones.iphone.iphone6.colors;
     var h623 = document.createElement("h6");
     var texth623 = document.createTextNode("Color: " + colors);
     h623.appendChild(texth623);
     h623.setAttribute("class", "qadeer");
     div12.appendChild(h623);
 
-    // var mobile1 = mobilePhones.iphone.iphone6.isPta;
     var h6234 = document.createElement("h6");
     var texth6234 = document.createTextNode("isPta: " + isPta);
     h6234.appendChild(texth6234);
@@ -567,7 +564,30 @@ function foo(name, brand, colors, image, isPta) {
     container.style.display = "none";
 }
 
-var input = document.getElementById("input");
+var result = mobilePhones["Google"]["pixel3"];
+console.log(result);
 
-var result = mobilePhones["Xiaomi"]["pocof4"];
-console.log(result)
+
+
+
+// function search() {
+//     event.preventDefault()
+//     var seletcedValue = dropdown.options[dropdown.selectedIndex].value;
+//     var inputs = document.getElementById("input").value;
+//     inputs = inputs.replaceAll(" ",'')
+//     if(inputs in mobilePhones[seletcedValue]){
+        
+//         console.log(mobilePhones[seletcedValue][inputs])
+//     }
+//     else if(inputs==""){
+//         alert("pleaase select value first")
+//     }
+//     else{
+    //         alert("not found")
+    //     }
+
+
+
+// }
+
+
