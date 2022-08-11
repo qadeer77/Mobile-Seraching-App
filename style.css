@@ -83,3 +83,30 @@ h6 {
     height: 460px;
     border-radius: 20px;
 }
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .mobile1 {
+        position: relative;
+        left: 30px;
+        width: 150px;
+    }
+
+    .mobile1 img {
+        width: 150px;
+    }
+
+    .mobile123 {
+        display: none;
+    }
+
+    .mobile124 {
+        position: relative;
+        left: 95px;
+    }
+
+    .mobile {
+        position: relative;
+        left: 50px;
+    }
+}

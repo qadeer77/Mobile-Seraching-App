@@ -525,55 +525,7 @@ for (var i = 0; i < list.length; i++) {
 }
 
 
-
-// function foo(name, brand, colors, image, isPta) {
-//     event.preventDefault()
-//         var div12 = document.getElementById("div12");
-//         var image1 = document.createElement("img");
-//         image1.setAttribute("src", image);
-//         image1.setAttribute("class", "qadeer");
-//         div12.appendChild(image1);
-
-//         var h6 = document.createElement("h6");
-//         var texth6 = document.createTextNode("Name: " + name);
-//         h6.appendChild(texth6);
-//         h6.setAttribute("class", "qadeer");
-//         div12.appendChild(h6);
-
-//         var h62 = document.createElement("h6");
-//         var texth62 = document.createTextNode("Brand: " + brand);
-//         h62.appendChild(texth62);
-//         h62.setAttribute("class", "qadeer");
-//         div12.appendChild(h62);
-
-//         var h623 = document.createElement("h6");
-//         var texth623 = document.createTextNode("Color: " + colors);
-//         h623.appendChild(texth623);
-//         h623.setAttribute("class", "qadeer");
-//         div12.appendChild(h623);
-
-//         var h6234 = document.createElement("h6");
-//         var texth6234 = document.createTextNode("isPta: " + isPta);
-//         h6234.appendChild(texth6234);
-//         h6234.setAttribute("class", "qadeer");
-//         div12.appendChild(h6234);
-
-
-//     var container1 = document.getElementById("none1");
-//     container1.style.display = "block";
-
-//     var container = document.getElementById("none");
-//     container.style.display = "none";
-// }
-// // var result = mobilePhones[this.seletcedValue][this.inputs];
-// var result = mobilePhones["Google"]["pixel3"];
-// console.log(result);
-
-
-
-
-
-function foo() {
+function search() {
     event.preventDefault()
     var div12 = document.getElementById("div12");
     var seletcedValue = dropdown.options[dropdown.selectedIndex].value;
@@ -582,20 +534,55 @@ function foo() {
     inputs = inputs.replaceAll(" ", '')
     if (inputs in mobilePhones[seletcedValue]) {
 
+        // image
         var img2 = document.createElement("img");
-        img2.setAttribute("src", inputs.);
-        console.log(img2)
+        img2.setAttribute("src", mobilePhones[seletcedValue][inputs]["image"]);
+        img2.setAttribute("class", "qadeer");
+        div12.appendChild(img2);
+
+        // name
+        var h6 = document.createElement("h6");
+        var texth6 = document.createTextNode("Name: " + mobilePhones[seletcedValue][inputs]["name"]);
+        h6.appendChild(texth6);
+        h6.setAttribute("class", "qadeer");
+        div12.appendChild(h6);
+
+        // brand
+        var h62 = document.createElement("h6");
+        var texth62 = document.createTextNode("Brand: " + mobilePhones[seletcedValue][inputs]["brand"]);
+        h62.appendChild(texth62);
+        h62.setAttribute("class", "qadeer");
+        div12.appendChild(h62);
+
+        // colors
+        var h623 = document.createElement("h6");
+        var texth623 = document.createTextNode("Color: " + mobilePhones[seletcedValue][inputs]["colors"]);
+        h623.appendChild(texth623);
+        h623.setAttribute("class", "qadeer");
+        div12.appendChild(h623);
+
+        // ispta
+        var h6234 = document.createElement("h6");
+        var texth6234 = document.createTextNode("isPta: " + mobilePhones[seletcedValue][inputs]["isPta"]);
+        h6234.appendChild(texth6234);
+        h6234.setAttribute("class", "qadeer");
+        div12.appendChild(h6234);
+
+
+        var container1 = document.getElementById("none1");
+        container1.style.display = "block";
+
+        var container = document.getElementById("none");
+        container.style.display = "none";
+
         // console.log(mobilePhones[seletcedValue][inputs])
     }
     else if (inputs == "") {
-        alert("pleaase select value first")
+        swal("pleaase select value first")
     }
     else {
-        alert("not found")
+        swal("not found")
     }
-
-
-
 }
 
 
